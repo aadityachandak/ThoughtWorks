@@ -1,0 +1,25 @@
+package org.ThoughtWorks.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class metercmstest {
+
+	meterstocms mtc = new meterstocms();
+	
+	
+	
+	@Test
+	public void test() {
+	long met,cms;
+		mtc.setMeters(1);
+		mtc.setCms(100);
+		met=1;
+		cms = 100;
+		assertsEquals(met,cms);
+		
+		fail("Not yet implemented");
+	}
+
+}

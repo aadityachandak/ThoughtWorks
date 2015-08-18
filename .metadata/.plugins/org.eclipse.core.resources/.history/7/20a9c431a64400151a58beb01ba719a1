@@ -1,0 +1,6 @@
+package org.ThoughtWorks.story1;
+
+public class Meters {
+
+	public double meters;
+}

@@ -1,0 +1,27 @@
+package org.ThoughtWorks.story1;
+
+public class Foot extends Length{
+
+	public final double conversionFactor =30.48;
+	
+	public double foot;
+
+	public Foot(double foot) {
+		super();
+		this.foot = foot;
+	}
+	
+	public double convertToBase() {
+
+		double cms = this.foot*conversionFactor;
+
+		return cms;
+
+	}
+	public double convertToFoot(double length){
+		double foot = length/conversionFactor;
+		return foot;
+	}
+
+
+}

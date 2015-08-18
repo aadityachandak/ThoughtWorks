@@ -1,0 +1,95 @@
+package org.ThoughtWorks.story1;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class QuantityTest {
+
+	@Test
+	public void testEquality() {
+
+		Quantity qty = new Quantity();
+		double length, length1, length2;
+
+		Length meter = new Meters(1.25);
+		Length centimeter = new Centimeters(125);
+
+		length = meter.convertToBase();
+		length1 = centimeter.convertToBase();
+
+		length2 = meter.convertToMeter(length1);
+
+		System.out.println(centimeter.length + " centimeters is "
+				+ length2 + " meters");
+		System.out.println(meter.length + " meters is " + length
+				+ " centimeters");
+
+		boolean value = qty.isEqual(length, length1);
+
+		assertEquals(true, value);
+
+	}
+
+	@Test
+	public void testNotEqual() {
+
+		Quantity qty = new Quantity();
+
+		double length, length1;
+
+		Meters meter = new Meters(1.215);
+		Centimeters centimeter = new Centimeters(125);
+
+		length = meter.convertToBase();
+		length1 = centimeter.convertToBase();
+
+		boolean value = qty.isEqual(length, length1);
+
+		assertEquals(false, value);
+
+	}
+
+	@Test
+	public void testConverttoMeters() {
+
+		Quantity qty = new Quantity();
+
+		double length, length1, length2;
+
+		Meters meter = new Meters(12.05);
+		Centimeters centimeter = new Centimeters(1205);
+
+		length = meter.meters;
+		length1 = centimeter.convertToBase();
+
+		length2 = meter.convertToMeter(length1);
+
+		boolean value = qty.isEqual(length2, length);
+
+		assertEquals(true, value);
+
+	}
+
+	@Test
+	public void testConverttoCentimeters() {
+
+		Quantity qty = new Quantity();
+
+		double length, length1;
+
+		Meters meter = new Meters(1.25);
+		Centimeters centimeter = new Centimeters(125);
+
+		length = meter.convertToBase();
+		length1 = centimeter.convertToBase();
+
+		// length2 = obj.convertToMeter(length1);
+
+		boolean value = qty.isEqual(length1, length);
+
+	
+		assertEquals(true, value);
+
+	}
+}

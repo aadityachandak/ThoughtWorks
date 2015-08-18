@@ -1,0 +1,5 @@
+package org.ThoughtWorks.story1;
+
+public class Inch extends Length{
+
+}

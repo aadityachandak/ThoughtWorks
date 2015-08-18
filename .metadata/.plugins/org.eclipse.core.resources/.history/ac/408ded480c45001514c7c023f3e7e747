@@ -1,0 +1,6 @@
+package org.ThoughtWorks.story1;
+
+public class Rod extends Length{
+	public final double conversionFactor =1508.76;
+
+}

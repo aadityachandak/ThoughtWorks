@@ -1,0 +1,13 @@
+package org.ThoughtWorks.story1;
+
+public class Meters {
+
+	public double meters;
+
+	public Meters(double meters) {
+		super();
+		this.meters = meters;
+	}
+	
+	
+}

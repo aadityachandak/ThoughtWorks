@@ -1,0 +1,7 @@
+package org.ThoughtWorks.story1;
+
+public class Mile extends Length{
+	
+	public final double conversionFactor =160000;
+
+}

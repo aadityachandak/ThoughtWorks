@@ -1,0 +1,21 @@
+package org.ThoughtWorks.story1;
+
+public class Centimeters extends Length {
+	public final double conversionFactor =1;
+
+	public double centimeters;
+
+	public Centimeters(double centimeters) {
+		super();
+		this.centimeters = centimeters;
+	}
+
+	public double convertToBase() {
+
+		double cms = this.centimeters*conversionFactor;
+
+		return cms;
+
+	}
+
+}

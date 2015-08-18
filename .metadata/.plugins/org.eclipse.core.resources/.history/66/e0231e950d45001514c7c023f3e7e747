@@ -1,0 +1,25 @@
+package org.ThoughWorks.StoryI;
+
+public class Length {
+
+	private double length;
+
+	public Length() {
+
+	}
+
+	public Length(double length) {
+		super();
+		this.length = length;
+	}
+
+	public double getLength() {
+		return length;
+	}
+	
+	public Length convertFrom(Length l)
+	{
+		double result = l.getBase()
+		return l;
+	}
+}

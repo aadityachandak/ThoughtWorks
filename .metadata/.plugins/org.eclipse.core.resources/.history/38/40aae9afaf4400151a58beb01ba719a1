@@ -1,0 +1,20 @@
+package org.ThoughtWorks.story1;
+
+public class Meters extends Length{
+
+	public double meters;
+
+	public Meters(double meters) {
+		super();
+		this.meters = meters;
+	}
+	
+public double convertToBase(double meters){
+		
+		centimeters = meters*100;
+		
+		return centimeters;
+		
+	}
+
+}

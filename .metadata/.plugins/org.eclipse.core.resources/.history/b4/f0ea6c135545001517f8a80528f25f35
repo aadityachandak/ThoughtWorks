@@ -1,0 +1,25 @@
+package org.ThoughtWorks.story1;
+
+public class Rod extends Length{
+	public final double conversionFactor =502.92;
+
+	public double rod;
+
+	public Rod(double rod) {
+		super();
+		this.rod = rod;
+	}
+
+	public double convertToBase() {
+
+		double cms = this.rod*conversionFactor;
+
+		return cms;
+
+	}
+
+	public double convertToRod(double length) {
+		double rod = length / conversionFactor;
+		return rod;
+	}
+}

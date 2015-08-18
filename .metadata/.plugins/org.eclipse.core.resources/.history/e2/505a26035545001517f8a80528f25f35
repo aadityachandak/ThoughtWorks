@@ -1,0 +1,26 @@
+package org.ThoughtWorks.story1;
+
+public class Milimeter extends Length {
+
+	public final double conversionFactor =0.1;
+
+	public double length;
+
+	public Milimeter(double milimeters) {
+		super();
+		this.length = milimeters;
+	}
+
+	public double convertToBase() {
+
+		double cms = this.length*conversionFactor;
+
+		return cms;
+		
+	}
+
+	public double convertToMilimeter(double length) {
+		double mm = length / conversionFactor;
+		return mm;
+	}
+}

@@ -1,0 +1,26 @@
+package org.ThoughtWorks.story1;
+
+public class Yard extends Length{
+
+	public final double conversionFactor =91.44;
+	
+	public double yard;
+
+	public Yard(double yard) {
+		super();
+		this.yard = yard;
+	}
+
+	public double convertToBase() {
+
+		double cms = this.yard*conversionFactor;
+
+		return cms;
+
+	}
+
+	public double convertToYard(double length) {
+		double yard = length / conversionFactor;
+		return yard;
+	}
+}

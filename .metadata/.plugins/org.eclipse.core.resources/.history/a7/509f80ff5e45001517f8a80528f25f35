@@ -1,0 +1,32 @@
+package org.ThoughtWorks.story1;
+
+public abstract class Length {
+
+	private double length;
+	
+	public double convertToBase() {
+		return 0;
+
+	}
+
+	public double convertToMeter(double length1) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public double convertToKilometer(double length1) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public double getLength() {
+		return length;
+	}
+
+	public double convertToYard(double length2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
+}

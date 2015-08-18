@@ -1,0 +1,23 @@
+package org.ThoughtWorks.story1;
+
+public class Quantity {
+	
+	private double meters;
+	private double cms;
+	public double getMeters() {
+		return meters;
+	}
+	public void setMeters(double meters) {
+		this.meters = meters;
+	}
+	public double getCms() {
+		return cms;
+	}
+	public void setCms(double cms) {
+		this.cms = cms;
+	}
+	
+	
+	
+
+}

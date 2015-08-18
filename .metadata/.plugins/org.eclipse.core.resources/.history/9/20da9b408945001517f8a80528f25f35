@@ -1,0 +1,77 @@
+package org.ThoughtWorks.story1;
+
+public abstract class Length {
+
+	private double length;
+	
+	public double addTwoDimensions(double dimensionA, double dimensionB){
+		double sum = dimensionA+dimensionB;
+		return sum;
+	}
+	
+	/*public double addTwoDimensions(Length l1, Length l2){
+		double d1, d2,sum;
+		d1=l1.convertToBase();
+		d2=l2.convertToBase();
+		sum=d1+d2;
+		
+		return length;
+		
+	}*/
+	
+	public double convertToBase() {
+		return 0;
+
+	}
+
+	public double convertToMeter(double length1) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public double convertToKilometer(double length1) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public double getLength() {
+		return length;
+	}
+
+	public double convertToYard(double length2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public double convertToInch(double length2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public Foot convertToFoot(double length2) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public double convertToMile(double length2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	public double convertToRod(double length2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	public double convertToMilimeter(double length2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public Length addTwoDimensions(Length kms, Length meters) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
+}

@@ -1,0 +1,16 @@
+package org.ThoughtWorks.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class metercmstest {
+
+	
+	metersto
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

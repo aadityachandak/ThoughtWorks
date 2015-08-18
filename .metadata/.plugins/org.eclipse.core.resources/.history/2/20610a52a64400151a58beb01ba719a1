@@ -1,0 +1,17 @@
+package org.ThoughtWorks.story1;
+
+public class Quantity {
+	
+	public double meters;
+	public double cms;
+
+	
+	public boolean isEqual(double meters, double cms){
+		
+		if(meters*100 == cms)
+			return true;
+		else
+		return false;
+	}
+
+}

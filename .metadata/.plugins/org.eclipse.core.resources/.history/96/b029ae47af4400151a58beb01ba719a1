@@ -1,0 +1,9 @@
+package org.ThoughtWorks.story1;
+
+public class Length {
+
+	public double convertToBase(){
+		
+	}
+	
+}

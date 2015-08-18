@@ -1,0 +1,6 @@
+package org.ThoughtWorks.story1;
+
+public class Foot extends Length{
+
+	public final double conversionFactor =30.48;
+}

@@ -1,0 +1,39 @@
+package org.ThoughtWorks.story1;
+
+public class Centimeters extends Length {
+	public final double conversionFactor =1;
+
+	private double length;
+
+	public Centimeters(double centimeters) {
+		super();
+		this.length = centimeters;
+	}
+
+	public Centimeters() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public double convertToBase() {
+
+		double cms = this.length*conversionFactor;
+
+		return cms;
+
+	}
+
+	/**
+	 * @return the length
+	 */
+	public double getLength() {
+		return length;
+	}
+
+	public double addTwoDimensions(double dimensionA, double dimensionB){
+		
+		double sum = dimensionA+dimensionB;
+		System.out.println("I am here");
+		return sum;
+	}
+
+}

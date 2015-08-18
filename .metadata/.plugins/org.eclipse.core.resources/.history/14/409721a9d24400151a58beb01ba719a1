@@ -1,0 +1,50 @@
+package org.ThoughtWorks.story1;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class QuantityTest {
+
+	@Test
+	public void testEquality() {
+
+		Quantity qty = new Quantity();
+		double length, length1, length2;
+
+		Meters obj = new Meters(1.25);
+		Centimeters obj1 = new Centimeters(125);
+
+		length = obj.convertToBase();
+		length1 = obj1.convertToBase();
+		length2 = obj.convertToMeter(length1);
+
+		System.out.println(obj1.centimeters+" centimeters is "+length2+" meters");
+		System.out.println(obj.meters+" meters is "+length+" centimeters");
+
+		boolean value = qty.isEqual(length, length1);
+
+		assertEquals(true, value);
+
+	}
+
+	@Test
+	public void testNotEqual() {
+
+		Quantity qty = new Quantity();
+
+		double length, length1;
+
+		Meters obj = new Meters(1.215);
+		Centimeters obj1 = new Centimeters(125);
+
+		length = obj.convertToBase();
+		length1 = obj1.convertToBase();
+
+		boolean value = qty.isEqual(length, length1);
+
+		assertEquals(false, value);
+
+	}
+
+}

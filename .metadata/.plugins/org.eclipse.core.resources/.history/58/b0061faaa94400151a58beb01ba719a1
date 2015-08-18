@@ -1,0 +1,17 @@
+package org.ThoughtWorks.story1;
+
+public class Quantity {
+	
+	
+
+	
+	public boolean isEqual(Meters meters, Centimeters cms){
+		
+		
+		if((meters.meters)*100 == cms.centimeters)
+			return true;
+		else
+		return false;
+	}
+
+}

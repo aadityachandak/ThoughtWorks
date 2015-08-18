@@ -1,0 +1,23 @@
+package org.ThoughtWorks.test;
+
+public class meterstocms {
+
+	
+	private int meters;
+	private int cms;
+	public int getMeters() {
+		return meters;
+	}
+	public void setMeters(int meters) {
+		this.meters = meters;
+	}
+	public int getCms() {
+		return cms;
+	}
+	public void setCms(int cms) {
+		this.cms = cms;
+	}
+	
+	
+	
+}

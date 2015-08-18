@@ -1,0 +1,6 @@
+package org.ThoughtWorks.story1;
+
+public class Inch extends Length{
+	
+	public final double conversionFactor =2.54;
+}

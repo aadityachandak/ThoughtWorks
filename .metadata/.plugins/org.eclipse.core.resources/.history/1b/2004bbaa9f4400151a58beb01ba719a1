@@ -1,0 +1,17 @@
+package org.ThoughtWorks.test;
+
+public class meterstocms {
+
+	
+	public boolean compareQty(float cms, float meters)
+	{
+		if(meters*100 == cms)
+			return true;
+		else
+		return false;
+	}
+	
+	
+	
+	
+}

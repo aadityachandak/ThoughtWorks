@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="QuantityTest" project="ThoughtWorks" tests="18" started="18" failures="0" errors="0" ignored="0">
+  <testsuite name="org.ThoughtWorks.story1.QuantityTest" time="0.007">
+    <testcase name="testConvertMilimeterToCentimeters" classname="org.ThoughtWorks.story1.QuantityTest" time="0.0"/>
+    <testcase name="testConverttoMeters" classname="org.ThoughtWorks.story1.QuantityTest" time="0.0"/>
+    <testcase name="testNotEqual" classname="org.ThoughtWorks.story1.QuantityTest" time="0.0"/>
+    <testcase name="testEquality" classname="org.ThoughtWorks.story1.QuantityTest" time="0.0"/>
+    <testcase name="testConverttoCentimeters" classname="org.ThoughtWorks.story1.QuantityTest" time="0.001"/>
+    <testcase name="testConvertMetersToKms" classname="org.ThoughtWorks.story1.QuantityTest" time="0.0"/>
+    <testcase name="testConvertMetersToYard" classname="org.ThoughtWorks.story1.QuantityTest" time="0.001"/>
+    <testcase name="testConvertFootToInch" classname="org.ThoughtWorks.story1.QuantityTest" time="0.0"/>
+    <testcase name="testConvertFootToYard" classname="org.ThoughtWorks.story1.QuantityTest" time="0.0"/>
+    <testcase name="testConvertMetersToFoot" classname="org.ThoughtWorks.story1.QuantityTest" time="0.001"/>
+    <testcase name="testConvertInchToCms" classname="org.ThoughtWorks.story1.QuantityTest" time="0.0"/>
+    <testcase name="testConvertInchToFoot" classname="org.ThoughtWorks.story1.QuantityTest" time="0.0"/>
+    <testcase name="testConvertYardToMile" classname="org.ThoughtWorks.story1.QuantityTest" time="0.001"/>
+    <testcase name="testConvertFootToRod" classname="org.ThoughtWorks.story1.QuantityTest" time="0.0"/>
+    <testcase name="testConvertKilometerToMeter" classname="org.ThoughtWorks.story1.QuantityTest" time="0.001"/>
+    <testcase name="testAddFootAndInch" classname="org.ThoughtWorks.story1.QuantityTest" time="0.001"/>
+    <testcase name="testAddMilesAndKms" classname="org.ThoughtWorks.story1.QuantityTest" time="0.0"/>
+    <testcase name="testAddCentimetersAndMeters" classname="org.ThoughtWorks.story1.QuantityTest" time="0.001"/>
+  </testsuite>
+</testrun>

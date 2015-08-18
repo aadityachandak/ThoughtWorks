@@ -1,0 +1,27 @@
+package org.ThoughtWorks.story1;
+
+public class Inch extends Length{
+	
+	public final double conversionFactor =2.54;
+
+	public double inch;
+
+	public Inch(double inch) {
+		super();
+		this.inch = inch;
+	}
+
+	public double convertToBase() {
+
+		double cms = this.inch*conversionFactor;
+
+		return cms;
+
+	}
+	
+
+	public double convertToInch(double length) {
+		double inch = length / conversionFactor;
+		return inch;
+	}
+}
